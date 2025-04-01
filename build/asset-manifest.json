@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hasanmertkan/static/css/main.251f3e3b.css",
+    "main.js": "/hasanmertkan/static/js/main.89b6a7aa.js",
+    "static/js/453.b1d84b9d.chunk.js": "/hasanmertkan/static/js/453.b1d84b9d.chunk.js",
+    "static/media/iftracker.png": "/hasanmertkan/static/media/iftracker.74649959ba63d0d141e4.png",
+    "static/media/suvekilo.png": "/hasanmertkan/static/media/suvekilo.0a1f2edc42b7c49f06c2.png",
+    "static/media/yokdil.png": "/hasanmertkan/static/media/yokdil.f11f2146dbb438897f79.png",
+    "static/media/numbersequence.png": "/hasanmertkan/static/media/numbersequence.aea324c55a9270514dc2.png",
+    "static/media/yds.png": "/hasanmertkan/static/media/yds.a7832933711d2697d87f.png",
+    "static/media/birikimly.png": "/hasanmertkan/static/media/birikimly.824ad8c82ecbe417970f.png",
+    "index.html": "/hasanmertkan/index.html",
+    "main.251f3e3b.css.map": "/hasanmertkan/static/css/main.251f3e3b.css.map",
+    "main.89b6a7aa.js.map": "/hasanmertkan/static/js/main.89b6a7aa.js.map",
+    "453.b1d84b9d.chunk.js.map": "/hasanmertkan/static/js/453.b1d84b9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.251f3e3b.css",
+    "static/js/main.89b6a7aa.js"
+  ]
+}
