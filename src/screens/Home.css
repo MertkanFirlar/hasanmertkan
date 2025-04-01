@@ -1,0 +1,380 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px 0;
+}
+
+.select-app-instruction {
+  font-size: 26px;
+  color: #222;
+  font-weight: 600;
+  margin: 30px 0;
+  letter-spacing: 0.4px;
+  font-family: 'Segoe UI', sans-serif;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.phones-showcase {
+  margin: 40px auto;
+  position: relative;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.phones-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 40px 0;
+  height: auto;
+}
+.phone-item {
+  text-decoration: none;
+  color: inherit;
+  transition: none;
+  position: absolute;
+  transform: translateX(-50%);
+  background-color: #f9f9f9; /* ekle bunu */
+  border-radius:80px;        /* istersen yumuşak kenar */
+}
+
+.phone-item:nth-child(1) {
+  left: 23%;
+  z-index: 1;
+  transform: translateX(-50%) scale(0.9);
+  filter: brightness(0.95);
+}
+
+.phone-item:nth-child(2) {
+  left: 50%;
+  z-index: 2;
+  transform: translateX(-50%) scale(1.05);
+}
+
+.phone-item:nth-child(3) {
+  left: 77%;
+  z-index: 1;
+  transform: translateX(-50%) scale(0.9);
+  filter: brightness(0.95);
+}
+
+.phone-frame {
+  position: relative;
+  width: 280px;
+  height: 580px;
+  border-radius: 50px;
+  background-color: #000;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid #333;
+}
+
+.phone-item:nth-child(2) .phone-frame {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.phone-notch {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  background-color: #000;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  z-index: 3;
+}
+
+.phone-screen {
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  overflow: hidden;
+  position: relative;
+}
+
+.phone-screenshot {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.phone-home-indicator {
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 3px;
+  z-index: 2;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 500px;
+  position: relative;
+}
+
+.carousel-arrow {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 20px;
+  transition: all 0.2s;
+  color: #555;
+  z-index: 5;
+}
+
+.carousel-arrow:hover {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+.carousel-indicators {
+  display: flex;
+  gap: 8px;
+  margin: 0 20px;
+}
+
+.carousel-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.carousel-dot.active {
+  background-color: #3366cc;
+  transform: scale(1.2);
+}
+
+.app-list-section {
+  margin: 60px 0;
+}
+
+.app-list-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: left;
+  padding-left: 10px;
+  border-left: 5px solid #3366cc;
+}
+
+.app-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 25px;
+}
+
+.app-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.app-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.app-card-logo {
+  margin-right: 20px;
+}
+
+.app-card-logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.app-card-details {
+  flex: 1;
+}
+
+.app-card-details h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.app-status {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.app-status.ready {
+  background-color: #e6f7e9;
+  color: #2e7d32;
+}
+
+.app-status.review {
+  background-color: #fff8e1;
+  color: #ff8f00;
+}
+
+/* -------- MOBİL DÜZENLEMELER -------- */
+@media (max-width: 900px) {
+  .phones-container {
+    flex-direction: column;
+    gap: 40px;
+    height: auto;
+  }
+
+  .phones-showcase {
+    height: auto !important;
+  }
+
+  .phones-container {
+    min-height: unset !important;
+    height: auto !important;
+    padding: 20px 0 !important;
+  }
+
+  .phone-frame {
+    width: 250px;
+    height: 520px;
+  }
+
+  .app-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .select-app-instruction {
+    font-size: 22px;
+    margin: 15px 0 25px;
+  }
+
+  .phone-item {
+    position: static;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .phone-item:not(:nth-child(2)) {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .phone-frame {
+    width: 220px;
+    height: 460px;
+  }
+
+  .app-card {
+    padding: 15px;
+  }
+
+  .app-card-logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+}
+
+/* Mobil için özel görünüm */
+.phones-container.mobile-view {
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 20px 0;
+}
+
+.phones-container.mobile-view .phone-item {
+  position: relative;
+  left: auto !important;
+  margin-bottom: 20px;
+  transform: none !important;
+  filter: none !important;
+  z-index: 1 !important;
+}
+
+.phones-container.mobile-view .phone-item:nth-child(2) {
+  z-index: 3 !important;
+  transform: scale(1.05) !important;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  display: block !important;
+}
+
+@media (min-width: 901px) {
+  .phones-container {
+    position: relative;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone-item {
+    position: absolute;
+    display: block !important;
+    
+  }
+
+  .phone-item:nth-child(1) {
+    left: 23%;
+    z-index: 1;
+    transform: translateX(-50%) scale(0.9);
+    filter: brightness(0.95);
+  }
+
+  .phone-item:nth-child(2) {
+    left: 50%;
+    z-index: 2;
+    transform: translateX(-50%) scale(1.05);
+  }
+
+  .phone-item:nth-child(3) {
+    left: 77%;
+    z-index: 1;
+    transform: translateX(-50%) scale(0.9);
+    filter: brightness(0.95);
+  }
+}
