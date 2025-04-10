@@ -9,6 +9,7 @@ import iftrackerLogo from '../assets/iftracker.png';
 import suvekiLoLogo from '../assets/suvekilo.png';
 import ydsLogo from '../assets/yds.png';
 import yokdilLogo from '../assets/yokdil.png';
+import colorTrickLogo from '../assets/colortrick.png';
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -67,6 +68,15 @@ const Home = () => {
       path: '/yokdil-words',
       screenshot: yokdilLogo,
       color: '#94C47D'
+    },
+    {
+      id: 'color-trick',
+      name: 'ColorTrick - Renk Paleti',
+      logo: colorTrickLogo,
+      status: 'iOS 1.0 In Development',
+      path: '/color-trick',
+      screenshot: colorTrickLogo,
+      color: '#5E35B1'
     }
   ];
 
