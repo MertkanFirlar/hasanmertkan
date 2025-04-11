@@ -10,6 +10,7 @@ import suvekiLoLogo from '../assets/suvekilo.png';
 import ydsLogo from '../assets/yds.png';
 import yokdilLogo from '../assets/yokdil.png';
 import colorTrickLogo from '../assets/colortrick.png';
+import tropicFlipLogo from '../assets/tropicflip.png';
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -77,6 +78,15 @@ const Home = () => {
       path: '/color-trick',
       screenshot: colorTrickLogo,
       color: '#5E35B1'
+    },
+    {
+      id: 'tropic-flip',
+      name: 'Tropic Flip: Mind Game',
+      logo: tropicFlipLogo,
+      status: 'iOS 1.0 In Development',
+      path: '/tropic-flip',
+      screenshot: tropicFlipLogo,
+      color: '#FF8A3D'
     }
   ];
 
