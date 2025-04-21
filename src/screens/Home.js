@@ -11,6 +11,7 @@ import ydsLogo from '../assets/yds.png';
 import yokdilLogo from '../assets/yokdil.png';
 import colorTrickLogo from '../assets/colortrick.png';
 import tropicFlipLogo from '../assets/tropicflip.png';
+import tarotRehberiLogo from '../assets/tarotrehberi.png';
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -87,6 +88,15 @@ const Home = () => {
       path: '/tropic-flip',
       screenshot: tropicFlipLogo,
       color: '#FF8A3D'
+    },
+    {
+      id: 'tarot-rehberi',
+      name: 'Günlük Tarot Rehberi',
+      logo: tarotRehberiLogo,
+      status: 'iOS 1.0 In Development',
+      path: '/tarot-rehberi',
+      screenshot: tarotRehberiLogo,
+      color: '#8E44AD'
     }
   ];
 
