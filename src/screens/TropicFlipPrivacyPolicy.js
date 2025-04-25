@@ -39,7 +39,7 @@ const TropicFlipPrivacyPolicy = () => {
         <section className="policy-section">
           <h2>5. İletişim</h2>
           <p>Herhangi bir sorunuz olması durumunda bizimle şu e-posta adresinden iletişime geçebilirsiniz:</p>
-          <p className="contact-email">📧 <strong>destek@gmail.com</strong></p>
+          <p className="contact-email">📧 <strong>destekcikmis@gmail.com</strong></p>
         </section>
 
         <section className="policy-section">

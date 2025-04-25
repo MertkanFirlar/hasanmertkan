@@ -62,7 +62,7 @@ const YOKDILWords = () => {
             
             <div className="contact-info">
               <h3>📬 Destek ve İletişim</h3>
-              <p><strong>✉️ E-posta:</strong> destek@gmail.com</p>
+              <p><strong>✉️ E-posta:</strong> destekcikmis@gmail.com</p>
             </div>
           </div>
         </section>

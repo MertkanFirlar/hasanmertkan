@@ -40,7 +40,7 @@ const NumbersSequence = () => {
           <div className="support-contact">
             <h3>📩 <strong>Destek ve İletişim</strong></h3>
             <p>Herhangi bir soru veya geri bildirim için bizimle iletişime geçmekten çekinmeyin:</p>
-            <p>📧 <strong>destek@gmail.com</strong></p>
+            <p>📧 <strong>destekcikmis@gmail.com</strong></p>
           </div>
 
           <p className="download-cta">🚀 <strong>Şimdi indirin ve hafıza becerilerinizi bir sonraki seviyeye taşıyın!</strong></p>

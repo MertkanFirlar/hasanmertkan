@@ -12,6 +12,7 @@ import YOKDILWords from './screens/YOKDILWords';
 import ColorTrick from './screens/ColorTrick';
 import TropicFlip from './screens/TropicFlip';
 import TarotRehberi from './screens/TarotRehberi';
+import SesliNotDonusturucu from './screens/SesliNotDonusturucu';
 import NSPrivacyPolicy from './screens/NSPrivacyPolicy';
 import YOKDILPrivacyPolicy from './screens/YOKDILPrivacyPolicy';
 import IFTrackerPrivacyPolicy from './screens/IFTrackerPrivacyPolicy';
@@ -21,6 +22,7 @@ import BirikimlyPrivacyPolicy from './screens/BirikimlyPrivacyPolicy';
 import ColorTrickPrivacyPolicy from './screens/ColorTrickPrivacyPolicy';
 import TropicFlipPrivacyPolicy from './screens/TropicFlipPrivacyPolicy';
 import TarotRehberiPrivacyPolicy from './screens/TarotRehberiPrivacyPolicy';
+import SesliNotDonusturucuPrivacyPolicy from './screens/SesliNotDonusturucuPrivacyPolicy';
 
 function App() {
   return (
@@ -37,6 +39,7 @@ function App() {
           <Route path="/color-trick" element={<ColorTrick />} />
           <Route path="/tropic-flip" element={<TropicFlip />} />
           <Route path="/tarot-rehberi" element={<TarotRehberi />} />
+          <Route path="/sesli-not-donusturucu" element={<SesliNotDonusturucu />} />
           <Route path="/numbers-sequence/privacy-policy" element={<NSPrivacyPolicy />} />
           <Route path="/yokdil-words/privacy-policy" element={<YOKDILPrivacyPolicy />} />
           <Route path="/if-tracker/privacy-policy" element={<IFTrackerPrivacyPolicy />} />
@@ -46,6 +49,7 @@ function App() {
           <Route path="/color-trick/privacy-policy" element={<ColorTrickPrivacyPolicy />} />
           <Route path="/tropic-flip/privacy-policy" element={<TropicFlipPrivacyPolicy />} />
           <Route path="/tarot-rehberi/privacy-policy" element={<TarotRehberiPrivacyPolicy />} />
+          <Route path="/sesli-not-donusturucu/privacy-policy" element={<SesliNotDonusturucuPrivacyPolicy />} />
         </Routes>
       </div>
     </Router>

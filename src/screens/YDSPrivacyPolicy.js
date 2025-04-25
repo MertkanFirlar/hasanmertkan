@@ -56,7 +56,7 @@ const YDSPrivacyPolicy = () => {
         <section className="policy-section">
           <h2>📬 İletişim</h2>
           <p>Bu Gizlilik Politikası hakkında sorularınız veya endişeleriniz varsa, lütfen bizimle iletişime geçin:</p>
-          <p className="contact-email"><strong>✉️ Destek:</strong> destek@gmail.com</p>
+          <p className="contact-email"><strong>✉️ Destek:</strong> destekcikmis@gmail.com</p>
         </section>
 
         <div className="policy-footer">

@@ -86,7 +86,7 @@ const NSPrivacyPolicy = () => {
         <section className="policy-section">
           <h2>10. İletişim Bilgileri</h2>
           <p>Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, bizimle şu adresten iletişime geçebilirsiniz:</p>
-          <p>📧 <strong>E-posta:</strong> <strong>destek@gmail.com</strong></p>
+          <p>📧 <strong>E-posta:</strong> <strong>destekcikmis@gmail.com</strong></p>
         </section>
 
         <section className="policy-section">

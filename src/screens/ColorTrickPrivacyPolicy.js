@@ -80,7 +80,7 @@ const ColorTrickPrivacyPolicy = () => {
         <section className="policy-section">
           <h2>10. İletişim</h2>
           <p>Gizlilik politikası hakkında sorularınız varsa bize ulaşabilirsiniz:</p>
-          <p className="contact-email">📧 <strong>destek@gmail.com</strong></p>
+          <p className="contact-email">📧 <strong>destekcikmis@gmail.com</strong></p>
         </section>
 
         <div className="policy-footer">

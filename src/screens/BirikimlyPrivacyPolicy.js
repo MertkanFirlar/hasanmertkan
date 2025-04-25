@@ -62,7 +62,7 @@ const BirikimlyPrivacyPolicy = () => {
             <li>Verilerinin işlenmesine itiraz etme</li>
           </ul>
           <p>Bu hakların kullanımı için bizimle iletişime geçebilirsiniz:</p>
-          <p className="contact-email">📧 <strong>E-posta:</strong> birikimlydestek@gmail.com</p>
+          <p className="contact-email">📧 <strong>E-posta:</strong> destekcikmis@gmail.com</p>
         </section>
 
         <section className="policy-section">

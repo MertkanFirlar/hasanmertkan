@@ -118,7 +118,7 @@ const IFTracker = () => {
             
             <div className="contact-info">
               <h3>📬 Destek ve İletişim</h3>
-              <p>Eğer uygulama ile ilgili bir sorunuz olursa, bize <strong>destek@gmail.com</strong> adresinden ulaşabilirsiniz.</p>
+              <p>Eğer uygulama ile ilgili bir sorunuz olursa, bize <strong>destekcikmis@gmail.com</strong> adresinden ulaşabilirsiniz.</p>
               <p className="slogan"><strong>Sağlıklı ve dengeli bir yaşam için IF Tracker yanınızda!</strong> 🚀</p>
             </div>
           </div>

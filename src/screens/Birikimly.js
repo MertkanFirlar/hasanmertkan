@@ -85,7 +85,7 @@ const Birikimly = () => {
             <div className="contact-info">
               <h3>📬 Destek ve İletişim</h3>
               <p>Geri bildiriminiz mi var veya yardıma mı ihtiyacınız var?</p>
-              <p className="contact-email">📧 <strong>destek@gmail.com</strong></p>
+              <p className="contact-email">📧 <strong>destekcikmis@gmail.com</strong></p>
             </div>
           </div>
         </section>

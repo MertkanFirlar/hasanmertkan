@@ -12,6 +12,7 @@ import yokdilLogo from '../assets/yokdil.png';
 import colorTrickLogo from '../assets/colortrick.png';
 import tropicFlipLogo from '../assets/tropicflip.png';
 import tarotRehberiLogo from '../assets/tarotrehberi.png';
+import sesliNotDonusturucuLogo from '../assets/seslinotdonusturucu.png';
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -97,6 +98,15 @@ const Home = () => {
       path: '/tarot-rehberi',
       screenshot: tarotRehberiLogo,
       color: '#8E44AD'
+    },
+    {
+      id: 'sesli-not-donusturucu',
+      name: 'VoiceNote - Sesli Not',
+      logo: sesliNotDonusturucuLogo,
+      status: 'iOS 1.0 In Development',
+      path: '/sesli-not-donusturucu',
+      screenshot: sesliNotDonusturucuLogo,
+      color: '#FF5722'
     }
   ];
 

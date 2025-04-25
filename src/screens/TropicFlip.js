@@ -114,7 +114,7 @@ const TropicFlip = () => {
             <div className="contact-info">
               <h3>📬 Destek ve İletişim</h3>
               <p>Sorularınız veya önerileriniz için bizimle iletişime geçebilirsiniz.</p>
-              <p className="contact-email">📧 <strong>destek@gmail.com</strong> adresinden ulaşabilirsin.</p>
+              <p className="contact-email">📧 <strong>destekcikmis@gmail.com</strong> adresinden ulaşabilirsin.</p>
             </div>
           </div>
         </section>

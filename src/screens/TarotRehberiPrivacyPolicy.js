@@ -50,7 +50,7 @@ const TarotRehberiPrivacyPolicy = () => {
         <section className="policy-section">
           <h2>7. İletişim</h2>
           <p>Herhangi bir sorunuz veya talebiniz için bizimle iletişime geçebilirsiniz:</p>
-          <p className="contact-email">📧 <strong>destek@gmail.com</strong></p>
+          <p className="contact-email">📧 <strong>destekcikmis@gmail.com</strong></p>
         </section>
         
         <section className="policy-section">

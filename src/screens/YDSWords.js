@@ -67,7 +67,7 @@ const YDSWords = () => {
             <div className="contact-info">
               <h3>📬 Destek</h3>
               <p>Herhangi bir sorunuz ya da öneriniz için bizimle iletişime geçmekten çekinmeyin:</p>
-              <p className="contact-email">📧 <strong>destek@gmail.com</strong></p>
+              <p className="contact-email">📧 <strong>destekcikmis@gmail.com</strong></p>
             </div>
           </div>
         </section>

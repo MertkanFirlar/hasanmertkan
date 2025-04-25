@@ -86,7 +86,7 @@ const VitalTrackerPrivacyPolicy = () => {
         <section className="policy-section">
           <h2>10. İletişim Bilgileri</h2>
           <p>Bu Gizlilik Politikası hakkında sorularınız varsa, aşağıdaki e-posta adresinden bizimle iletişime geçebilirsiniz:</p>
-          <p className="contact-email">📧 <strong>E-posta:</strong> destek@gmail.com</p>
+          <p className="contact-email">📧 <strong>E-posta:</strong> destekcikmis@gmail.com</p>
         </section>
 
         <section className="policy-section">
