@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/hasanmertkan/static/css/main.251f3e3b.css",
-    "main.js": "/hasanmertkan/static/js/main.7b42e994.js",
+    "main.js": "/hasanmertkan/static/js/main.dfe894de.js",
     "static/js/453.b1d84b9d.chunk.js": "/hasanmertkan/static/js/453.b1d84b9d.chunk.js",
     "static/media/iftracker.png": "/hasanmertkan/static/media/iftracker.74649959ba63d0d141e4.png",
     "static/media/tarotrehberi.png": "/hasanmertkan/static/media/tarotrehberi.659ee77c647148afc3f3.png",
+    "static/media/seslinotdonusturucu.png": "/hasanmertkan/static/media/seslinotdonusturucu.1f7aea546c7aa706c509.png",
     "static/media/tropicflip.png": "/hasanmertkan/static/media/tropicflip.44a63784c810ba45d837.png",
     "static/media/suvekilo.png": "/hasanmertkan/static/media/suvekilo.0a1f2edc42b7c49f06c2.png",
     "static/media/colortrick.png": "/hasanmertkan/static/media/colortrick.cbc6c6f0691e76882373.png",
@@ -14,11 +15,11 @@
     "static/media/birikimly.png": "/hasanmertkan/static/media/birikimly.824ad8c82ecbe417970f.png",
     "index.html": "/hasanmertkan/index.html",
     "main.251f3e3b.css.map": "/hasanmertkan/static/css/main.251f3e3b.css.map",
-    "main.7b42e994.js.map": "/hasanmertkan/static/js/main.7b42e994.js.map",
+    "main.dfe894de.js.map": "/hasanmertkan/static/js/main.dfe894de.js.map",
     "453.b1d84b9d.chunk.js.map": "/hasanmertkan/static/js/453.b1d84b9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.251f3e3b.css",
-    "static/js/main.7b42e994.js"
+    "static/js/main.dfe894de.js"
   ]
 }
